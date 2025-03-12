@@ -1,0 +1,324 @@
+Time: Wed Mar 12 13:34:44 IST 2025
+USER DETAILS: neta:x:1000:1000:,,,:/home/neta:/bin/bash
+REOP: /home/neta/LINUX_COURSE_PROJECT/Work/Q1
+GithubUrl: https://github.com/nronen29/LINUX_COURSE_PROJECT.git
+VERSIONID: 22.04
+------------------------------------------------------------
+
+/home/neta/LINUX_COURSE_PROJECT/
+├── BACKUPS
+├── CODE
+│   ├── plant.py
+│   └── py1.py
+├── DATA
+│   ├── FIle_1.txt
+│   ├── File_2.txt
+│   ├── img1.jpg
+│   ├── img2.jpg
+│   ├── img3.jpg
+│   └── plants.csv
+├── DOWNLOADS
+│   └── LINUX_COURSE_WORK-downloads
+│       ├── FIle_1.txt
+│       ├── File_2.txt
+│       ├── img1.jpg
+│       ├── img2.jpg
+│       ├── img3.jpg
+│       ├── plant.py
+│       ├── plants.csv
+│       └── py1.py
+└── Work
+    ├── Q1
+    │   └── q1_output.txt
+    ├── Q2
+    ├── Q3
+    └── Q4
+
+10 directories, 17 files
+
+------------------------------------
+
+/home/neta/GitTask/commit_task.sh
+/home/neta/Scripts/script4.sh
+/home/neta/Scripts/script1.sh
+/home/neta/BashScript2/script_4_CSV.sh
+/home/neta/BashScript2/script_2_method.sh
+/home/neta/BashScript2/script_1_iterateFiles.sh
+/home/neta/BashScript2/script_3_install.sh
+/home/neta/.vscode-server/data/User/History/ad9903c/7hpm.sh
+/home/neta/.vscode-server/data/User/History/ad9903c/dj7x.sh
+/home/neta/.vscode-server/data/User/History/ad9903c/MuoU.sh
+/home/neta/.vscode-server/data/User/History/-7fe58a41/Td4p.sh
+/home/neta/.vscode-server/data/User/History/-7fe58a41/oULR.sh
+/home/neta/.vscode-server/data/User/History/-7fe58a41/IJgD.sh
+/home/neta/.vscode-server/data/User/History/-7fe58a41/tL0U.sh
+/home/neta/.vscode-server/data/User/History/-56e7c03f/yBZx.sh
+/home/neta/.vscode-server/data/User/History/-56e7c03f/dIop.sh
+/home/neta/.vscode-server/data/User/History/-56e7c03f/ZLg8.sh
+/home/neta/.vscode-server/data/User/History/-56e7c03f/7mCn.sh
+/home/neta/.vscode-server/data/User/History/-56e7c03f/BcM4.sh
+/home/neta/.vscode-server/data/User/History/-56e7c03f/Yet3.sh
+/home/neta/.vscode-server/data/User/History/-56e7c03f/Mj5T.sh
+/home/neta/.vscode-server/data/User/History/-56e7c03f/INpL.sh
+/home/neta/.vscode-server/data/User/History/-56e7c03f/Grmf.sh
+/home/neta/.vscode-server/data/User/History/-56e7c03f/6txP.sh
+/home/neta/.vscode-server/data/User/History/-56e7c03f/XoCj.sh
+/home/neta/.vscode-server/data/User/History/-56e7c03f/WYY0.sh
+/home/neta/.vscode-server/data/User/History/-56e7c03f/00g3.sh
+/home/neta/.vscode-server/data/User/History/-56e7c03f/SUeC.sh
+/home/neta/.vscode-server/data/User/History/-56e7c03f/QTyX.sh
+/home/neta/.vscode-server/data/User/History/-56e7c03f/1ujQ.sh
+/home/neta/.vscode-server/data/User/History/-56e7c03f/mad5.sh
+/home/neta/.vscode-server/data/User/History/-56e7c03f/wRuS.sh
+/home/neta/.vscode-server/data/User/History/-56e7c03f/ycgx.sh
+/home/neta/.vscode-server/data/User/History/-56e7c03f/Dwnc.sh
+/home/neta/.vscode-server/data/User/History/37da46ed/ScZW.sh
+/home/neta/.vscode-server/data/User/History/37da46ed/HIQi.sh
+/home/neta/.vscode-server/data/User/History/37da46ed/ioKO.sh
+/home/neta/.vscode-server/data/User/History/37da46ed/Qcg6.sh
+/home/neta/.vscode-server/data/User/History/37da46ed/THk8.sh
+/home/neta/.vscode-server/data/User/History/37da46ed/3KrB.sh
+/home/neta/.vscode-server/data/User/History/37da46ed/II0k.sh
+/home/neta/.vscode-server/data/User/History/37da46ed/05Kq.sh
+/home/neta/.vscode-server/data/User/History/37da46ed/fqPT.sh
+/home/neta/.vscode-server/data/User/History/11f7bce7/4qhk.sh
+/home/neta/.vscode-server/data/User/History/11f7bce7/wSKX.sh
+/home/neta/.vscode-server/data/User/History/11f7bce7/gRj8.sh
+/home/neta/.vscode-server/data/User/History/11f7bce7/qImp.sh
+/home/neta/.vscode-server/data/User/History/11f7bce7/5lLW.sh
+/home/neta/.vscode-server/data/User/History/11f7bce7/KaQE.sh
+/home/neta/.vscode-server/data/User/History/11f7bce7/x3zk.sh
+/home/neta/.vscode-server/data/User/History/48e42fbb/uah6.sh
+/home/neta/.vscode-server/data/User/History/48e42fbb/4IRq.sh
+/home/neta/.vscode-server/data/User/History/48e42fbb/vkC6.sh
+/home/neta/.vscode-server/data/User/History/48e42fbb/ks2I.sh
+/home/neta/.vscode-server/data/User/History/48e42fbb/TVBT.sh
+/home/neta/.vscode-server/data/User/History/48e42fbb/Dqp7.sh
+/home/neta/.vscode-server/data/User/History/48e42fbb/fgnC.sh
+/home/neta/.vscode-server/data/User/History/48e42fbb/0b25.sh
+/home/neta/.vscode-server/data/User/History/48e42fbb/mBm0.sh
+/home/neta/.vscode-server/data/User/History/41328a5c/JRrY.sh
+/home/neta/.vscode-server/data/User/History/41328a5c/IfpA.sh
+/home/neta/.vscode-server/data/User/History/41328a5c/EvZg.sh
+/home/neta/.vscode-server/data/User/History/41328a5c/bqFf.sh
+/home/neta/.vscode-server/data/User/History/-7c6bd03c/bLjI.sh
+/home/neta/.vscode-server/data/User/History/-7c6bd03c/2FoS.sh
+/home/neta/.vscode-server/data/User/History/-7c6bd03c/Zfis.sh
+/home/neta/.vscode-server/data/User/History/-7c6bd03c/slQt.sh
+/home/neta/.vscode-server/data/User/History/-533bafd8/Q3aZ.sh
+/home/neta/.vscode-server/data/User/History/-533bafd8/TMpt.sh
+/home/neta/.vscode-server/data/User/History/-533bafd8/Ur0l.sh
+/home/neta/.vscode-server/data/User/History/-533bafd8/bLcZ.sh
+/home/neta/.vscode-server/data/User/History/-533bafd8/Zb2U.sh
+/home/neta/.vscode-server/data/User/History/-533bafd8/JWQe.sh
+/home/neta/.vscode-server/data/User/History/-533bafd8/f6be.sh
+/home/neta/.vscode-server/data/User/History/-533bafd8/muR1.sh
+/home/neta/.vscode-server/data/User/History/-533bafd8/jZLP.sh
+/home/neta/.vscode-server/data/User/History/-533bafd8/Hygn.sh
+/home/neta/.vscode-server/data/User/History/-533bafd8/JfQw.sh
+/home/neta/.vscode-server/data/User/History/-533bafd8/yWJS.sh
+/home/neta/.vscode-server/data/User/History/-533bafd8/F1cD.sh
+/home/neta/.vscode-server/data/User/History/-4cfad0ce/ZbHt.sh
+/home/neta/.vscode-server/data/User/History/-4cfad0ce/Gxpg.sh
+/home/neta/.vscode-server/data/User/History/-4cfad0ce/TwvA.sh
+/home/neta/.vscode-server/data/User/History/-4cfad0ce/5E7N.sh
+/home/neta/.vscode-server/data/User/History/-4cfad0ce/UAGL.sh
+/home/neta/.vscode-server/data/User/History/-4cfad0ce/YR0Q.sh
+/home/neta/.vscode-server/data/User/History/-4cfad0ce/vlMj.sh
+/home/neta/.vscode-server/data/User/History/-4cfad0ce/EN2W.sh
+/home/neta/.vscode-server/data/User/History/-1d8ad478/b82L.sh
+/home/neta/.vscode-server/data/User/History/9ca1080/TrHX.sh
+/home/neta/.vscode-server/data/User/History/9ca1080/6TLI.sh
+/home/neta/.vscode-server/data/User/History/9ca1080/mYUG.sh
+/home/neta/.vscode-server/data/User/History/9ca1080/FLky.sh
+/home/neta/.vscode-server/data/User/History/9ca1080/Eoq5.sh
+/home/neta/.vscode-server/data/User/History/9ca1080/25j3.sh
+/home/neta/.vscode-server/data/User/History/9ca1080/1Lfx.sh
+/home/neta/.vscode-server/data/User/History/9ca1080/TsXb.sh
+/home/neta/.vscode-server/data/User/History/9ca1080/qkLn.sh
+/home/neta/.vscode-server/data/User/History/9ca1080/Kk6I.sh
+/home/neta/.vscode-server/data/User/History/9ca1080/QGVT.sh
+/home/neta/.vscode-server/data/User/History/9ca1080/ylbP.sh
+/home/neta/.vscode-server/data/User/History/9ca1080/fd58.sh
+/home/neta/.vscode-server/data/User/History/9ca1080/UF6P.sh
+/home/neta/.vscode-server/data/User/History/9ca1080/sB59.sh
+/home/neta/.vscode-server/data/User/History/9ca1080/ICaV.sh
+/home/neta/.vscode-server/data/User/History/9ca1080/9Owg.sh
+/home/neta/.vscode-server/data/User/History/9ca1080/VZG9.sh
+/home/neta/.vscode-server/data/User/History/9ca1080/MYcH.sh
+/home/neta/.vscode-server/data/User/History/9ca1080/iUJg.sh
+/home/neta/.vscode-server/data/User/History/9ca1080/McOw.sh
+/home/neta/.vscode-server/data/User/History/9ca1080/2Pzx.sh
+/home/neta/.vscode-server/data/User/History/9ca1080/wI4x.sh
+/home/neta/.vscode-server/data/User/History/9ca1080/fr91.sh
+/home/neta/.vscode-server/data/User/History/9ca1080/FXr8.sh
+/home/neta/.vscode-server/data/User/History/9ca1080/fF13.sh
+/home/neta/.vscode-server/data/User/History/9ca1080/SSGF.sh
+/home/neta/.vscode-server/data/User/History/9ca1080/JcY8.sh
+/home/neta/.vscode-server/data/User/History/-533a52bb/Oq2b.sh
+/home/neta/.vscode-server/data/User/History/-533a52bb/9KaX.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/data/shell.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/getopts_long.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/bashdb-part2.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/export.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/kill.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/alias.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/list.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/load.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/signal.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/log.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/set.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/debug.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/history.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/file.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/down.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/delete.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/next.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/up.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/handle.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/continue.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/commands.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/complete.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/set_sub/autoeval.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/set_sub/linetrace.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/set_sub/trace-commands.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/set_sub/annotate.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/set_sub/basename.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/set_sub/highlight.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/set_sub/listsize.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/set_sub/debug.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/set_sub/history.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/set_sub/debugging.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/set_sub/editing.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/set_sub/args.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/set_sub/width.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/set_sub/showcommand.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/set_sub/style.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/set_sub/prompt.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/set_sub/autolist.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/set_sub/tty.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/set_sub/different.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/set_sub/dollar0.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/trace.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/break.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/return.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/step.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/action.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/condition.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/info.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/display.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/help.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/quit.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/undisplay.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/shell.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/search.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/info_sub/breakpoints.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/info_sub/variables.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/info_sub/signals.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/info_sub/line.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/info_sub/warranty.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/info_sub/stack.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/info_sub/handle.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/info_sub/args.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/info_sub/watchpoints.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/info_sub/display.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/info_sub/files.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/info_sub/functions.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/info_sub/program.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/info_sub/source.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/untrace.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/frame.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/show_sub/autoeval.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/show_sub/alias.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/show_sub/version.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/show_sub/annotate.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/show_sub/basename.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/show_sub/highlight.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/show_sub/listsize.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/show_sub/debug.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/show_sub/history.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/show_sub/warranty.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/show_sub/editing.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/show_sub/directories.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/show_sub/commands.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/show_sub/args.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/show_sub/width.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/show_sub/style.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/show_sub/prompt.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/show_sub/autolist.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/show_sub/tty.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/show_sub/different.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/show_sub/copying.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/run.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/tty.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/show.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/eval.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/clear.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/enable.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/watch.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/finish.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/edit.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/skip.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/examine.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/disable.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/backtrace.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/pwd.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/command/source.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/lib/save-restore.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/lib/filecache.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/lib/unescape.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/lib/alias.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/lib/dbg-call.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/lib/list.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/lib/hist.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/lib/fns.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/lib/cmd-hooks.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/lib/setshow.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/lib/columnize.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/lib/file.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/lib/commands.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/lib/complete.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/lib/break.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/lib/sort.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/lib/action.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/lib/info.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/lib/subcmd.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/lib/display.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/lib/help.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/lib/shell.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/lib/validate.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/lib/frame.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/lib/run.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/lib/stepping.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/lib/msg.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/lib/journal.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/lib/sig.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/lib/processor.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/lib/hook.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/dbg-main.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/init/require.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/init/opts.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/init/term-background.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/init/io.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/init/vars.sh
+/home/neta/.vscode-server/extensions/rogalmic.bash-debug-0.3.9/bashdb_dir/init/pre.sh
+/home/neta/.vscode-server/bin/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/node_modules/jschardet/scripts/show-size-changes.sh
+/home/neta/.vscode-server/bin/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/node_modules/jschardet/scripts/run-workflow.sh
+/home/neta/.vscode-server/bin/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/extensions/git/dist/git-editor.sh
+/home/neta/.vscode-server/bin/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/extensions/git/dist/git-editor-empty.sh
+/home/neta/.vscode-server/bin/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/extensions/git/dist/askpass.sh
+/home/neta/.vscode-server/bin/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/extensions/git/dist/ssh-askpass-empty.sh
+/home/neta/.vscode-server/bin/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/extensions/git/dist/askpass-empty.sh
+/home/neta/.vscode-server/bin/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/extensions/git/dist/ssh-askpass.sh
+/home/neta/.vscode-server/bin/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/extensions/ms-vscode.js-debug/src/targets/node/terminateProcess.sh
+/home/neta/.vscode-server/bin/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+/home/neta/.vscode-server/bin/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/out/vs/base/node/cpuUsage.sh
+/home/neta/.vscode-server/bin/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/out/vs/base/node/ps.sh
+/home/neta/.vscode-server/bin/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/bin/helpers/browser.sh
+/home/neta/.vscode-server/bin/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/bin/helpers/check-requirements.sh
+/home/neta/BashScript/Q3/updater.sh
+/home/neta/BashScript/script1_menu.sh
+/home/neta/BashScript/script3_RunPythonWithParm.sh
+/home/neta/BashScript/q1/combine.sh
+/home/neta/BashScript/s cript2_RunPython.sh
+/home/neta/BashScript/Q2/updater.sh
