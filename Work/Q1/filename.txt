@@ -1,1 +1,0 @@
-USER DETAILS: neta:x:1000:1000:,,,:/home/neta:/bin/bash
