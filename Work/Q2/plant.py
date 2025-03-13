@@ -3,8 +3,7 @@ import matplotlib.pyplot as plt
 
 plant = "Rose"
 height_data = [50, 55, 60, 65, 70]  # Height data over time (in cm)
-leaf_count_data =pip install matplotlib
- [35, 40, 45, 50, 55]  # Leaf count over time
+leaf_count_data = [35, 40, 45, 50, 55]  # Leaf count over time
 dry_weight_data = [2.0, 2.0, 2.1, 2.1, 3.0]  # Dry weight over time (in grams)
 
 # Print out the plant data (optional)
