@@ -1,0 +1,81 @@
+ ###I'm not sure why the 'clear history' command didn’t work, 
+so we ended up deleting the irrelevant history manually.### 
+ 550  clear
+  551  git branch BR_Q2
+  552  git checkout BR_Q2
+  553  cp DOWNLOADS/LINUX_COURSE_WORK-downloads/plant.py Work/Q2/
+  554  pip install matplotlib
+  555  cd Work/Q2
+  556  python plant.py 
+  557  python3 plant.py 
+  558  mkdir Diagrams_1
+  559  mv *.png Diagrams_1/
+  560  date +"%Y-%m-%d_%H-%M-%S"
+  561  mkdir Diagrams_1_$(date +"%Y-%m-%d_%H-%M-%S")
+  562  mv Diagrams_1/*.png Diagrams_1_2025-03-12_15-40-35/
+  563  rmdir Diagrams_1
+  564  mv Diagrams_1_2025-03-12_15-40-35/ Diagrams_1
+  565  #tar -czvf BACKUP_$(date +"%Y-%m-%d_%H-%M-%S").tar.gz *
+  566  cd Diagrams_1/
+  567  tar -czvf BACKUP_$(date +"%Y-%m-%d_%H-%M-%S").tar.gz *
+  568  rm BACKUP_*.tar.gz
+  569  tar -czvf BACKUP_$(date +"%Y-%m-%d_%H-%M-%S").tar.gz *
+  570  rm -rf *
+  571  git status
+  572  git add .
+  573  git commit -m "Q2 update part a"
+  574  cd .
+  575  cd ..
+  576  git add .
+  577  git commit -m "Q2 update part a"
+  578  git checkout master
+  579  git merge BR_Q2
+  580  git status 
+  581  git checkout BR_Q2
+  582  python plant.py 
+  583  python3 plant.py 
+  584  mv *.png Diagrams_1/
+  585  tar -czvf BACKUP_$(date +"%Y-%m-%d_%H-%M-%S").tar.gz *
+  586  git checkout master
+  587  git merge BR_Q2
+  588  git status 
+  589* 
+  590  rm BACKUP_*.tar.gz
+  591  mv NEW_BACKUP.tar.gz BACKUP_$(date +"%Y-%m-%d_%H-%M-%S").tar.gz
+  592  mv NEW_BACKUP_* BACKUP_$(date +"%Y-%m-%d_%H-%M-%S")
+  593  tar -tzvf BACKUP_*.tar.gz
+  594  cd D
+  595  cd Diagrams_1/
+  596  tar -tzvf BACKUP_*.tar.gz
+  597  la
+  598  ls
+  599  ll
+  600  tar -tzvf BACKUP_*.tar.gz
+  601  python3 plant.py 
+  602  cd Work/Q2
+  603  python3 plant.py 
+  604  pip install matplotlib
+  605  python3 plant.py 
+  606  mkdir -p "Diagrams_1/BACKUP_$(date +%F_%H)" && mv *.png "Diagrams_1/BACKUP_$(date +%F_%H)/"
+  607  git branch
+  608  git fetch master
+  609  git fetch origin
+  610  git checkout main 
+  611  git checkout master
+  612  git pull origin master
+  613  git checkout BR_Q2
+  614  git merge master
+  615  git checkout master
+  616  git merger BR_Q@
+  617  git merger BR_Q2
+  618  git merge BR_Q2
+  619  git push origin master
+  620  touch requirements.txt
+  621  history
+  622  pip uninstall matplotlib
+  623  python3 requirements.py --plant "rose" --height 50 55 30 65 70 --leaf_count 30 40 50 20 10 --dry_weight 2.0 1.5 0.2 0.5 
+  624  mkdir Diagrams_2
+  625  mkdir -p "Diagrams_2/BACKUP_$(date +%F_%H)" && mv *.png "Diagrams_2/BACKUP_$(date +%F_%H)/"
+  626  touch Work/Q2/history.txt 
+  627  touch history.txt 
+  628  history >> history.txt
