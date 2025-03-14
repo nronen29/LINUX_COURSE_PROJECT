@@ -548,21 +548,96 @@
   548  pwd
   549  find / -name "merged_diagram.png" 2>/dev/null
   550  find / -name "docker_history.log" 2>/dev/null
-  551  cd Work/Q5
-  552  ls -lh /app/
-  553  ls -lh /root/
-  554  find / -name "*.png" 2>/dev/null
-  555  find / -name "docker_history.log" 2>/dev/null
-  556  docker ps -a
-  557  docker cp python_container:/app/merged_diagram.png ~/merged_diagram.png
-  558  docker cp python_container:/app/docker_history.log ~/docker_history.log
-  559  docker cp python_container:/root/merged_diagram.png ~/merged_diagram.png
-  560  docker cp python_container:/root/docker_history.log ~/docker_history.log
-  561  docker cp python_container:/app/merged_diagram.png ~/merged_diagram.png
-  562  docker cp python_container:/merged_diagram.png ~/merged_diagram.png
-  563  docker cp python_container:/app/merged_diagram.png .
-  564  docker cp python_container:/app/docker_history.log .
-  565  docker cp python_container:/merged_diagram.png .
-  566  docker cp python_container:/docker_history.log .
-  567  docker cp python_container:/merged_diagram_horizontal.png .
-  568  history > docker_history.log
+  551  history
+  552  FROM python:3.8
+  553  WORKDIR /app
+  554  nano Dockerfile
+  555  docker build -t plant_plotter .
+  556  ls -lh
+  557  find ~/ -name "requirements.py" 2>/dev/null
+  558  docker build -t plant_plotter .
+  559  cd .
+  560  cd ..
+  561  docker build -t plant_plotter .
+  562  docker build -t plant_plotter -f Q5/Dockerfile .
+  563  docker build -t plant_plotter .
+  564  docker run --rm plant_plotter --plant "Rose" --height 50 55 60 65 70 --leaf_count 35 40 45 50 55 --dry_weight 2.0 2.2 2.5 2.7 3.0
+  565  docker ps -a 
+  566  docker build -t plant_plotter -f Q5/Dockerfile .
+  567  docker run --rm plant_plotter --plant "Rose" --height 50 55 60 65 70 --leaf_count 35 40 45 50 55 --dry_weight 2.0 2.2 2.5 2.7 3.0
+  568  docker ps -l
+  569  docker cp <container_id>:/LINUX_COURSE_PROJECT/Work/Rose_scatter.png ~/WSL_HOST/
+  570  docker cp <container_id>:/LINUX_COURSE_PROJECT/Work/Rose_histogram.png ~/WSL_HOST/
+  571  docker cp <container_id>:/LINUX_COURSE_PROJECT/Work/Rose_line_plot.png ~/WSL_HOST/
+  572  docker ps -a
+  573  docker start python_container
+  574  docker exec -it python_container bash
+  575  cd ~/LINUX_COURSE_PROJECT/Work/Q5
+  576  cd ~/LINUX_COURSE_PROJECT/Work
+  577  docker build -t plant_plotter -f Q5/Dockerfile .
+  578  docker run --name plant_container plant_plotter --plant "Rose" --height 50 55 60 65 70 --leaf_count 35 40 45 50 55 --dry_weight 2.0 2.2 2.5 2.7 3.0
+  579  docker ps -a
+  580  docker exec -it plant_container bash
+  581  docker ps -a
+  582  docker start plant_plotter
+  583  docker start 67ccc858e978
+  584  docker exec -it 67ccc858e978bash
+  585  docker run --name plant_container -it plant_plotter --plant "Rose" --height 50 55 60 65 70 --leaf_count 35 40 45 50 55 --dry_weight 2.0 2.2 2.5 2.7 3.0
+  586  docker ps -a
+  587  docker cp plant_container:/LINUX_COURSE_PROJECT/Work/Rose_scatter.png ~/WSL_HOST/
+  588  docker cp plant_container:/LINUX_COURSE_PROJECT/Work/Rose_histogram.png ~/WSL_HOST/
+  589  docker cp plant_container:/LINUX_COURSE_PROJECT/Work/Rose_line_plot.png ~/WSL_HOST/
+  590  ls -lh /LINUX_COURSE_PROJECT/Work/
+  591  docker run --name plant_container plant_plotter --plant "Rose" --height 50 55 60 65 70 --leaf_count 35 40 45 50 55 --dry_weight 2.0 2.2 2.5 2.7 3.0
+  592  docker start plant_container
+  593  docker exec -it plant_container bash
+  594  docker ps -a | grep plant_container
+  595  docker start plant_container
+  596  docker exec -it plant_container bash
+  597  docker ps -a | grep plant_container
+  598  docker start plant_plotter
+  599  docker start plant_container
+  600  docker exec -it plant_container bash
+  601  docker rm plant_container
+  602  docker run --name plant_container -it plant_plotter --plant "Rose" --height 50 55 60 65 70 --leaf_count 35 40 45 50 55 --dry_weight 2.0 2.2 2.5 2.7 3.0
+  603  docker exec -it plant_container bash
+  604  docker exec -it plant_container
+  605  Error response from daemon: container cdf2e5455a9acb31ef8961d15812fcbed822c77f26b07534b5b118da1d40a785 is not running
+  606  docker ps -a | grep plant_container
+  607  docker start plant_container
+  608  docker exec -it plant_container bash
+  609  docker run --name plant_container -it plant_plotter --plant "Rose" --height 50 55 60 65 70 --leaf_count 35 40 45 50 55 --dry_weight 2.0 2.2 2.5 2.7 3.0
+  610  docker rm plant_container
+  611  docker run --name plant_container -it plant_plotter --plant "Rose" --height 50 55 60 65 70 --leaf_count 35 40 45 50 55 --dry_weight 2.0 2.2 2.5 2.7 3.0
+  612  docker exec -it plant_container bash
+  613  docker build -t plant_plotter -f Q5/Dockerfile .
+  614  docker run --name plant_container -it plant_plotter --plant "Rose" --height 50 55 60 65 70 --leaf_count 35 40 45 50 55 --dry_weight 2.0 2.2 2.5 2.7 3.0
+  615  docker build -t plant_plotter1 -f Q5/Dockerfile .
+  616  docker run --name plant_container -it plant_plotter1 --plant "Rose" --height 50 55 60 65 70 --leaf_count 35 40 45 50 55 --dry_weight 2.0 2.2 2.5 2.7 3.0
+  617  docker ps -a | grep plant_container
+  618  docker start plant_container
+  619  docker exec -it plant_container bash
+  620  docker run --name plant_container -it plant_plotter1 --plant "Rose" --height 50 55 60 65 70 --leaf_count 35 40 45 50 55 --dry_weight 2.0 2.2 2.5 2.7 3.0
+  621  cd ~/LINUX_COURSE_PROJECT/Work
+  622  docker build -t plant_plotter -f Q5/Dockerfile .
+  623  docker run --name plant_container -it plant_plotter --plant "Rose" --height 50 55 60 65 70 --leaf_count 35 40 45 50 55 --dry_weight 2.0 2.2 2.5 2.7 3.0
+  624  docker rm plant_container
+  625  docker stop plant_container
+  626  docker rm plant_container
+  627  cd ~/LINUX_COURSE_PROJECT/Work
+  628  docker build -t plant_plotter -f Q5/Dockerfile .
+  629  docker run --name plant_container_new -it plant_plotter --plant "Rose" --height 50 55 60 65 70 --leaf_count 35 40 45 50 55 --dry_weight 2.0 2.2 2.5 2.7 3.0
+  630  docker exec -it plant_container_new bash
+  631  docker ps -a
+  632  ls -lh /LINUX_COURSE_PROJECT/Work/
+  633  find / -name "*.png" 2>/dev/null
+  634  ls -lh ~/WSL_HOST
+  635  mkdir -p ~/WSL_HOST
+  636  docker cp plant_container_new:/LINUX_COURSE_PROJECT/Work/Rose_scatter.png ~/WSL_HOST/
+  637  docker cp plant_container_new:/LINUX_COURSE_PROJECT/Work/Rose_histogram.png ~/WSL_HOST/
+  638  docker cp plant_container_new:/LINUX_COURSE_PROJECT/Work/Rose_line_plot.png ~/WSL_HOST/
+  639  ls -lh ~/WSL_HOST/
+  640  explorer.exe .
+  641  ls -lh ~/WSL_HOST/
+  642  cd Q5
+  643  history > docker_history.log
