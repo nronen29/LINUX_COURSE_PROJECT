@@ -75,3 +75,13 @@ Generated plots for 3.
 Generated plots for 4.
 Generated plots for 5.
 Generated plots for 6.
+Using CSV file: /home/neta/LINUX_COURSE_PROJECT/Work/Q3/first.csv
+No Q4_venv found, creating virtual environment.
+Virtual environment activated.
+Installing dependencies from requirements.txt.
+Running Python script: /home/neta/LINUX_COURSE_PROJECT/Work/Q2/requirements.py
+Generated plots for "Rose".
+Generated plots for "Sunflower".
+Generated plots for "Lily".
+All plots generated successfully.
+Virtual environment deactivated.
