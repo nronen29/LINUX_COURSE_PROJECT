@@ -1,0 +1,19 @@
+   
+  673  docker build -t java_watermark .
+  674  nano DockerfileJava
+  675  nano WatermarkProcessor.java
+  676  docker build -t java_watermark .
+  677  cd ~/LINUX_COURSE_PROJECT/Work
+  678  docker build -t java_watermark .
+  679  pwd
+  680  cd ~/LINUX_COURSE_PROJECT/Work/Q5
+  681  ls -lh
+  682  docker build -t java_watermark .
+  683  docker build -t java_watermark -f DockerfileJava .
+  684  nano run_watermark.sh
+  685  chmod +x run_watermark.sh
+  686  ./run_watermark.sh ~/LINUX_COURSE_PROJECT/Work/Q5/input_images "yuval and netta"
+  687  ls -lh ~/WSL_HOST/
+  688  explorer.exe .
+  689  docker system prune -f
+  690  history > docker_history3.log

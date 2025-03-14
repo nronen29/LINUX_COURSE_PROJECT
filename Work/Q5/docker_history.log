@@ -1,0 +1,643 @@
+    1  whoami
+    2  cat
+    3  whoami
+    4  cat /etc/os-release
+    5  wsl --update
+    6  touch index.html
+    7  touch applog.log
+    8  touch data.txt
+    9  whoami
+   10  mkdir website
+   11  code ./website
+   12  mkdir website
+   13  ./website
+   14  /website
+   15  touch index.html
+   16  touch data.txt
+   17  touch applog.log
+   18  wsl --update
+   19  --update
+   20  whoami
+   21  wsl --online
+   22  wsl --list --online
+   23  uname -v
+   24  uname -r
+   25  whoami
+   26  clear
+   27  cd /etc/
+   28  pwd
+   29  ls
+   30  clear
+   31  ls -la
+   32  cd ../var/log
+   33  cd ../../home
+   34  pwd
+   35  clear
+   36  cd -
+   37  cd~
+   38  cd ~
+   39  cd /mnt/d
+   40  cd /mnt/c
+   41  cd ~
+   42  clear
+   43  mkdir Matala_1
+   44  ls
+   45  cd Matala_1/
+   46  code .
+   47  mkdir -p Website/{static/{css,js},views/{html,images}}
+   48  ls R
+   49  ls -R
+   50  mdkir Test
+   51  mkdir Test
+   52  mkdir -p  Test/{Demo1,Demo2}
+   53  cd Demo1
+   54  cd Test/Demo1
+   55  touch Index.html
+   56  cd ../
+   57  cd Test/Demo2
+   58  cd Demo2
+   59  touch index.html
+   60  ls -R
+   61  cd ..
+   62  clear
+   63  mkdir -p  Test/Dir{1..5}
+   64  cd Test
+   65  ls -R
+   66  clear
+   67  cd Dir1
+   68  touch file1_{1..10}
+   69  cd ..
+   70  touch Dir2/file 2_{1..10}.txt
+   71  cd ..
+   72  ls -R
+   73  ls -Rla
+   74  history
+   75  cat >  editFile.txt
+   76  cat >>  editFile.txt
+   77  echo "ABC"
+   78  echo 123
+   79  echo "123" >> editFile.txt
+   80  echo "123" >> editFile.txt
+   81  echo "123456" >> editFile.txt
+   82  ls -R >> Matala1.txt
+   83  touch data1.txt
+   84  whoami >> data1.txt
+   85  date >> data1.txt
+   86  echo '----------' >> data1.txt
+   87  echo -e "line1...\n line2...\n line3...\n"
+   88  echo -e "line1...\nline2..\n line3..." >> data1.txt 
+   89  echo '----------' >> data1.txt
+   90  cat data.txt
+   91  cat data1.txt 
+   92  .code
+   93  code
+   94  mkdir Matala_2
+   95  cd Matala_2
+   96  touch task1.log
+   97  echo "UserName:`whoami`" >> task1.log
+   98  echo "Date:`date`" >> task1.log
+   99  echo "OS Version:`lsb_release -d`" >> task1.log
+  100  sed -i '$ d' task1.log
+  101  echo "-----------------" >> task1.log
+  102  pwd
+  103  echo "Directoy:`pwd`" >> task1.log
+  104  echo "-----------------" >> task1.log
+  105  clear
+  106  cd ..
+  107  mkdir Matala_2
+  108  cd Matala_1
+  109  touch task2_os.log
+  110  echo -e "Versions:\n--------------------\n`cat/etc/os-release`"
+  111  echo -e "Versions:\n--------------------\n`cat/etc/os-release`" >> task2_os.log 
+  112  echo -e "Versions:\n--------------------\n`cat /etc/os-release`" >> task2_os.log 
+  113  cat /etc/os-release | grep "^Version"
+  114  cat /etc/os-release | grep '^Version'
+  115  echo cat /etc/os-release | grep '^Version'
+  116  cat /etc/os-release | grep '^VERSION'
+  117  cat /etc/os-release | grep -E '(^VERSION_ID)' | cut -d "=" -f 2
+  118  cat /etc/os-release | grep -E '(PRETTY_NAME)' | cut -d "=" -f 2
+  119  cat /etc/os-release | grep -E '(^VERSION_ID)' | cut -d "=" -f 2 >> home/yuval2334/Matala_1/file1.txt
+  120  touch file1.txt
+  121  cat /etc/os-release | grep -E '(^VERSION_ID)' | cut -d "=" -f 2 >> home/yuval2334/Matala_1/file1.txt
+  122  cat /etc/os-release | grep -E '(^VERSION_ID)' | cut -d "=" -f 2 >> home/yuval2334/MATALA_1/file1.txt
+  123  cat /etc/os-release | grep -E '(^VERSION_ID)' | cut -d "=" -f 2 >> file.txt
+  124  cat /etc/os-release | grep -E '(PRETTY_NAME)' | cut -d "=" -f 2 >> file.txt
+  125  clear
+  126  cat employees.csv << EOF
+  127  ID,Name,Department,Salary
+  128  1,John Doe,Engineering,70000
+  129  2,Jane Smith,HR,55000
+  130  3,Bob Johnson,Finance,60000
+  131  4,Alice Davis,Engineering,80000
+  132  5,Chris Wilson,Marketing,45000
+  133  6,Karen Taylor,Finance,62000
+  134  7,Paul Brown,Engineering,75000
+  135  EOF
+  136  cat >  employees.csv << EOF
+  137  ID,Name,Department,Salary
+  138  1,John Doe,Engineering,70000
+  139  2,Jane Smith,HR,55000
+  140  3,Bob Johnson,Finance,60000
+  141  4,Alice Davis,Engineering,80000
+  142  5,Chris Wilson,Marketing,45000
+  143  6,Karen Taylor,Finance,62000
+  144  7,Paul Brown,Engineering,75000
+  145  EOF
+  146  cut -d',' -f2 employees.csv > task3.txt
+  147  echo "---------" >> task3.txt
+  148  cut -d',' -f3,4 employees.csv >> task3.txt
+  149  grep "Engineering" employees.csv 
+  150  echo "--------------" >> task3.txt 
+  151  grep "Engineering" employees.csv >> task3.txt 
+  152  echo "--------------" >> task3.txt 
+  153  echo -e $(cut -d',' -f3 employees.csv | sort | uniq -c) >> task3.txt 
+  154  cut -d',' -f3 employees.csv | sort | uniq -c >> task3.txt 
+  155  sort -t',' -k5 -n employees.csv 
+  156  sort -t',' -k4 -n employees.csv 
+  157  sort -t',' -k4 -n employees.csv >> task3.txt 
+  158  sort -t',' -k4 -n employees.csv >> employees.csv 
+  159  awk -F',' NR>1 {sum += $4} END {print "Total Salary:", sum}' employees.csv
+  160  EOF
+  161  awk -F',' 'NR>1 {sum += $4} END {print "Total Salary:", sum}' employees.csv
+  162  EOF
+  163  awk -F',' NR>1 {sum += $4} END {print "Total Salary:", sum}' employees.csv
+  164  EOF
+  165  awk -F',' 'NR>1 {sum += $4} END {print "Total Salary:", sum}' employees.csv
+  166  echo "--------------" >> task3.txt 
+  167  awk -F',' 'NR>1 {sum += $4} END {print "Total Salary:", sum}' employees.csv >> task3.txt 
+  168  echo "--------------" >> task3.txt r
+  169  sed 's/HR/Human Resources/g' employees.csv > employees_v2.csv
+  170  clear
+  171  sed 's/HR/Human Resources/g' employees.csv > file.txt 
+  172  sed 's/HR/Human Resources/g' employees.csv > task3.txt
+  173  sort -t',' -k4 -n employees.csv >> employees.csv >> task3.txt
+  174  sed 's/HR/Human Resources/g' employees.csv >>  task3.txt
+  175  cut -d',' -f2 employees.csv > task3.txt
+  176  echo "--------------" >> task3.txt 
+  177  cut -d',' -f3,4 employees.csv >> task3.txt
+  178  echo "--------------" >> task3.txt 
+  179  grep "Engineering" employees.csv >> task3.txt 
+  180  echo "--------------" >> task3.txt 
+  181  echo -e $(cut -d',' -f3 employees.csv | sort | uniq -c) >> task3.txt 
+  182  echo "--------------" >> task3.txt 
+  183  cut -d',' -f3 employees.csv | sort | uniq -c >> task3.txt 
+  184  echo "--------------" >> task3.txt 
+  185  sort -t',' -k4 -n employees.csv >> task3.txt 
+  186  echo "--------------" >> task3.txt 
+  187  sed 's/HR/Human Resources/g' employees.csv >>  task3.txt
+  188  echo "--------------" >> task3.txt 
+  189  awk -F',' 'NR>1 {sum += $4} END {print "Total Salary:", sum}' employees.csv >> task3.txt 
+  190  echo "--------------" >> task3.txt 
+  191  history
+  192  touch a{1..5}
+  193  mkdir A B C
+  194  touch B{3..4}
+  195  touch c5
+  196  cp c5 C/c5_copy
+  197  mkdir Original
+  198  mv a{1..5} b{3,4} c5 Original
+  199  mv B3 B4 Original
+  200  mv  Original Original_$(whoami)
+  201  ls
+  202  cp Original_yuval2334/a* A
+  203  cp Original_yuval2334/a* B
+  204  cp -R . Backup_$(date +%Y)-$(date +%m)-$(date +%d)
+  205  rm -r A B C Original*
+  206  history > history.log
+  207  history 20  > history.log
+  208  echo "-----------" >> history.log
+  209  ls -R  >> history.log
+  210  cat history.log
+  211  tar cvf backupTat.tar ./*
+  212  tar -tvf backupTat.tar
+  213  clear
+  214  mv backupTat.tar backup_tar.tar
+  215  echo "---------" >> history.log 
+  216  tar -tvf backupTar.tar >> history.log
+  217  tar -tvf backup_tar.tar >> history.log
+  218  history
+  219  ls
+  220  rm -r Matala*
+  221  ls
+  222  mkdir Mataka_Files
+  223  cd Matala_Files
+  224  cd Mataka_Files
+  225  code .
+  226  .code
+  227  . code
+  228  .code
+  229  /clear
+  230  clear
+  231  . code
+  232  .code
+  233  code
+  234  code
+  235  mkdir DownloadFiles
+  236  cd DownloadFiles
+  237  code .
+  238  wget https://code.jquery.com/jquery-3.7.1.slim.js
+  239  wget -O pic1.jpeg  https://opencode.md/wp-content/uploads/2023/08/Top-8-facts-about-Linux-2.jpg
+  240  wget -O pic2.jpg  https://cyberhoot.com/wp-content/uploads/2020/11/2-1024x565.jpg
+  241  wget -L https://fastly.picsum.photos/id/237/200/300.jpg?hmac=TmmQSbShHz9CdQm0NkEjx1Dyh_Y984R9LpNrpvH2D_U
+  242  mv 300.jpg\?hmac\=TmmQSbShHz9CdQm0NkEjx1Dyh_Y984R9LpNrpvH2D_U pic3.jpg
+  243  wget https://jsonplaceholder.typicode.com/posts
+  244  mv posts posts.json
+  245  wget -O album_7.json https://jsonplaceholder.typicode.com/albums/7
+  246  clear
+  247  tar czvf downloadedFiles.tar.gz *
+  248  tar tvf downloadedFiles.tar.gz
+  249  rm pic*
+  250  rm *.json *html *.js 300
+  251  tar tvf
+  252  tar tvf downloadedFiles.tar.gz 
+  253  tar xzvf downloadedFiles.tar.gz 
+  254  wget --mirror --convert-links --adjust-extension --page--requisites --no-parent https://example.com
+  255  wget --mirror --convert-links --adjust-extension --page-requisites --no-parent https://example.com
+  256  curl http://example.com > example_com.html
+  257  ls > task3.log
+  258  history | tail -n 20 >> task3.log 
+  259  sudo apt update
+  260  apt --upgradable
+  261  apt update
+  262  sudo apt update
+  263  sudo apt upgrade
+  264  apt search figlet
+  265  which figlet
+  266  apt show figlet
+  267  which figlet
+  268  figlet LINUX
+  269  figlet YUVAL
+  270  sudo install cmatrix
+  271  sudo apt install cmatrix
+  272  cmatrix YUVAL
+  273  sudo apt install nnn
+  274  nnn wy
+  275  sudo apt install neofetch
+  276  neofetch
+  277  sudo apt remove neofetch
+  278  neofetch
+  279  sudo apt install neofetch
+  280  neofetch
+  281  sudo apt install Nodejs
+  282  sudo apt install nodejs
+  283  which nodejs
+  284  node -v
+  285  npm -v
+  286  clear
+  287  mkdir NodeJSApp && cd NodeJSApp
+  288  code .
+  289  touch index.js
+  290  node index.js
+  291  npm -v
+  292  sudo apt install npm
+  293  clear
+  294  sudo apt install fortune
+  295  fortune
+  296  sudo apt install cowsay
+  297  cowsay "Hello!"
+  298  fortune | cowsay
+  299  furtune
+  300  fortune
+  301  fortune | cowsay
+  302  which nodejs
+  303  npm -v
+  304  clear
+  305  node index.js
+  306  npm init
+  307  node index.js
+  308  curl localhost:3000 > res
+  309  curl localhost:3000 > res_client
+  310  echo "Request Time: $(date)\n" >> res_client
+  311  curl localhost:3000 > res_client
+  312  curl localhost:4000 > res_client
+  313  cd .
+  314  cd.
+  315  mkdir installs
+  316  cd installs
+  317  .code
+  318  code.
+  319  code
+  320  cd install
+  321  cd installs
+  322  .code
+  323  . code
+  324  code .
+  325  touch installs.log
+  326  echo "----about Installing htop... $"
+  327  echo "----about Installing htop... $(date)" >> installs.log 
+  328  sudo apt -get update
+  329  sudo update
+  330  sudo apt update
+  331  echo "----updating Repo..." >> installs.log 
+  332  echo "----htop installing details:" >> installs.log 
+  333  sudo apt install -y htop >> installs.log 
+  334  sudo apt install htop
+  335  echo "---- htop installed version: $installed_version" >> installs.log 
+  336  echo "$(htop --version | head -n 1)" >>installs.log 
+  337  echo "htop installed directory: $(which htop)" >> installs.log 
+  338  echo "----Running htop... $(date)" >> installs.log 
+  339  htop
+  340  sudo apt install aha
+  341  htop | aha > htop.html
+  342  google-chrome htop.html
+  343  history
+  344  mkdir BashScript
+  345  cd BashScript
+  346  code .
+  347  touch script1.sh
+  348  chmod 755 script1.sh 
+  349  ls -la
+  350  ./script1.sh 
+  351  ./script1.sh
+  352  ./script1.sh 
+  353  ./script1.sh s
+  354  ./script1.sh a.py
+  355  ./script1.sh ./Python/py1.py
+  356  clear
+  357  ./script1.sh ./Python/py1.py
+  358  python3 Python/app.py xxx yyy
+  359  mkdir HW1_Q1
+  360  cd HW1_Q1/
+  361  code .
+  362  touch combine.sh
+  363  combine.sh inputDir generated.txt
+  364  chmod 755 combine.sh
+  365  ls -a combine.sh 
+  366  ls -la combine.sh 
+  367  combine.sh inputDir generated.txt
+  368  ./combine.sh ~/inputDir  generated.txt
+  369  ./combine.sh  ./inputDir  generated.txt
+  370  ./combine.sh  ./inputDir  generated.txt
+  371  cd ./
+  372  cd .
+  373  cd ..
+  374  mkdir HW_Q2
+  375  cd HW_Q2
+  376  code .
+  377  touch updater.sh
+  378  chmod 755  updater.sh
+  379  ./updater.sh ~/data/help.txt "1.01" "2.01"
+  380  ./updater.sh ./data/help.txt "1.01" "2.01"
+  381  ls -la updater.sh 
+  382  ./updater.sh ~/data/help.txt "1.01" "2.01"
+  383  clear
+  384  ./updater.sh ~/data/help.txt "1.01" "2.01"
+  385  ./updater.sh ./data/help.txt "1.01" "2.01"
+  386  ./updater.sh ./data/help.txt "1.01" "2.01" "12/05/22" "15/03/23"
+  387  mkdir BashScript2
+  388  code ./BashScript2
+  389  touch script_1_iterateFiles.sh
+  390  chmod *x script_1_iterateFiles.sh 
+  391  chmod +x script_1_iterateFiles.sh 
+  392  mkdir Folder1
+  393  touch Folder1/f1.txt
+  394  touch Folder1/f2.txt Folder1/f3.txt
+  395  script_1_iterateFiles.sh Folder1
+  396  clear
+  397  cd /BashScript2
+  398  cd ./BashScript2
+  399  code .
+  400  chmod 755 script_1_iterateFiles.sh 
+  401  script_1_iterateFiles.sh
+  402  ./script_1_iterateFiles.sh Folder1
+  403  ./script_1_iterateFiles.sh ./Folder1
+  404  clear
+  405  touch Folder1/f1.txt
+  406  touch Folder1/f2.txt Folder1/f3.txt
+  407  ./script2_Method.sh
+  408  ./script3_install.sh cowsay
+  409  ./script3_install.sh jq
+  410  clear
+  411  ./script4_CSV.sh
+  412  sudo apt update
+  413  sudo apt install git-all
+  414  git --version
+  415  clear
+  416  git config --global user.name "ychaver"
+  417  git config --global user.email "yuvalchaver1@gmail.com"
+  418  git config --global user.name
+  419  git config --global user.email
+  420  git config --global color.ui auto
+  421  git config --global color.ui
+  422  mkdir TestRep_1
+  423  cd TestRep_1/
+  424  git init .
+  425  ls -la
+  426  touch 1.txt
+  427  touch 2.txt
+  428  ls
+  429  git add 1.txt
+  430  git commit -m "1.txt file first inserted to git history repo"
+  431  git add 2.txt
+  432  git commit -m "2.txt file first inserted to git history repo"
+  433  git status -s
+  434  touch 3.txt
+  435  git status -s
+  436  echo "--------File2.txt........ >> 2.txt
+  437  cat 2.txt
+  438  echo "--------File2.txt........" >> 2.txt
+  439  cat 2.txt
+  440  git status -s
+  441  git add 2.txt
+  442  git statis -s
+  443  git status -s
+  444  git commit -m "2.txt updated"
+  445  git status -s
+  446  ךד
+  447  ls
+  448  git status
+  449  git add .
+  450  git status
+  451  git commit -m "3.txt"
+  452  git status
+  453  clean
+  454  clen
+  455  clean
+  456  clear
+  457  git log
+  458  git log 2.txt
+  459  git log --oneline
+  460  code .
+  461  ls -la
+  462  git add .
+  463  git commit -m "Create Web"
+  464  gid add .
+  465  git add ,
+  466  git add .
+  467  git commit -m "update j "
+  468  git status -s
+  469  git remote add origin https://github.com/YuvalChaver/TestRepo_1.git
+  470  git branch -M main
+  471  git push -u origin main
+  472  cd .
+  473  cd ..
+  474  mkdir GitTask
+  475  cd GitTask
+  476  code .
+  477  touch commit.sh
+  478  mkdir BashDockerApp
+  479  cd BashDockerApp
+  480  code .
+  481  chmod +x convert_temp.sh
+  482  ./convert_temp.sh 22
+  483  docker --version
+  484  docker build -t temp-convertor-bash .
+  485  clear
+  486  docker images
+  487  docker run --rm temp-convertor-bash 22
+  488  docker build -t temp-convertor-bash .
+  489  docker run --rm temp-convertor-bash 22
+  490  docker images
+  491  cd ..
+  492  mkdir PythonDockerApp
+  493  cd PythonDockerApp
+  494  code .
+  495  docker build -t temp-convertor-java ./JavaDockers
+  496  docker build -t temp-convertor-java .
+  497  docker images
+  498  docker run -it temp-convertor-java
+  499  docker ps -a
+  500  clear
+  501  venv --version
+  502  python -m venv EnvPyApp
+  503  python3 -m venv EnvPyApp
+  504  apt install python3.12-venv
+  505  /clear
+  506  clear
+  507  python3 -m venv EnvPyApp
+  508  apt install python3.12-venv
+  509  sudo apt install python3.12-venv
+  510  python3 -m venv EnvPyApp
+  511  source venv EnvPyApp/bin/activate
+  512  source EnvPyApp/bin/activate
+  513  pip install matplotlib pandas
+  514  python3 pychat.py 101 250,5000,1200 chart_101.png
+  515  python3 pychat.py 101 250,5000,1300 chart_101B.png
+  516  chmod +x pychartRunner.sh
+  517  ./pychartRunner.sh
+  518  clear
+  519  docker build -t chart-generator
+  520  deactivate
+  521  docker build -t chart-generator .
+  522  docker run --rm -v $(pwd):/app/output chart-generator 201 250,2000,3200 /app/output/chart_201.png
+  523  ls
+  524  git init
+  525  git checkout -b BR_Q5
+  526  cd Work
+  527  mkdir Q5
+  528  cd Q5
+  529  docker run -it --name my_container ubuntu /bin/bash
+  530  cd Work
+  531  cd Q5
+  532  docker run -it --name my_container ubuntu bash
+  533  docker exec -it my_container bash
+  534  docker start -ai my_container
+  535  cd Q5
+  536  cd Work/Q5
+  537  docker info
+  538  docker version
+  539  docker run -it --name my_container ubuntu bash
+  540  docker run -it --name my_container1 ubuntu bash
+  541  docker ps
+  542  apt update
+  543  apt install -y nano
+  544  docker run -it --name python_container ubuntu bash
+  545  docker --version
+  546  docker cp python_container:/path/to/merged_diagram.png ~/WSL_HOST/
+  547  docker cp python_container:/path/to/docker_history.log ~/WSL_HOST/
+  548  pwd
+  549  find / -name "merged_diagram.png" 2>/dev/null
+  550  find / -name "docker_history.log" 2>/dev/null
+  551  history
+  552  FROM python:3.8
+  553  WORKDIR /app
+  554  nano Dockerfile
+  555  docker build -t plant_plotter .
+  556  ls -lh
+  557  find ~/ -name "requirements.py" 2>/dev/null
+  558  docker build -t plant_plotter .
+  559  cd .
+  560  cd ..
+  561  docker build -t plant_plotter .
+  562  docker build -t plant_plotter -f Q5/Dockerfile .
+  563  docker build -t plant_plotter .
+  564  docker run --rm plant_plotter --plant "Rose" --height 50 55 60 65 70 --leaf_count 35 40 45 50 55 --dry_weight 2.0 2.2 2.5 2.7 3.0
+  565  docker ps -a 
+  566  docker build -t plant_plotter -f Q5/Dockerfile .
+  567  docker run --rm plant_plotter --plant "Rose" --height 50 55 60 65 70 --leaf_count 35 40 45 50 55 --dry_weight 2.0 2.2 2.5 2.7 3.0
+  568  docker ps -l
+  569  docker cp <container_id>:/LINUX_COURSE_PROJECT/Work/Rose_scatter.png ~/WSL_HOST/
+  570  docker cp <container_id>:/LINUX_COURSE_PROJECT/Work/Rose_histogram.png ~/WSL_HOST/
+  571  docker cp <container_id>:/LINUX_COURSE_PROJECT/Work/Rose_line_plot.png ~/WSL_HOST/
+  572  docker ps -a
+  573  docker start python_container
+  574  docker exec -it python_container bash
+  575  cd ~/LINUX_COURSE_PROJECT/Work/Q5
+  576  cd ~/LINUX_COURSE_PROJECT/Work
+  577  docker build -t plant_plotter -f Q5/Dockerfile .
+  578  docker run --name plant_container plant_plotter --plant "Rose" --height 50 55 60 65 70 --leaf_count 35 40 45 50 55 --dry_weight 2.0 2.2 2.5 2.7 3.0
+  579  docker ps -a
+  580  docker exec -it plant_container bash
+  581  docker ps -a
+  582  docker start plant_plotter
+  583  docker start 67ccc858e978
+  584  docker exec -it 67ccc858e978bash
+  585  docker run --name plant_container -it plant_plotter --plant "Rose" --height 50 55 60 65 70 --leaf_count 35 40 45 50 55 --dry_weight 2.0 2.2 2.5 2.7 3.0
+  586  docker ps -a
+  587  docker cp plant_container:/LINUX_COURSE_PROJECT/Work/Rose_scatter.png ~/WSL_HOST/
+  588  docker cp plant_container:/LINUX_COURSE_PROJECT/Work/Rose_histogram.png ~/WSL_HOST/
+  589  docker cp plant_container:/LINUX_COURSE_PROJECT/Work/Rose_line_plot.png ~/WSL_HOST/
+  590  ls -lh /LINUX_COURSE_PROJECT/Work/
+  591  docker run --name plant_container plant_plotter --plant "Rose" --height 50 55 60 65 70 --leaf_count 35 40 45 50 55 --dry_weight 2.0 2.2 2.5 2.7 3.0
+  592  docker start plant_container
+  593  docker exec -it plant_container bash
+  594  docker ps -a | grep plant_container
+  595  docker start plant_container
+  596  docker exec -it plant_container bash
+  597  docker ps -a | grep plant_container
+  598  docker start plant_plotter
+  599  docker start plant_container
+  600  docker exec -it plant_container bash
+  601  docker rm plant_container
+  602  docker run --name plant_container -it plant_plotter --plant "Rose" --height 50 55 60 65 70 --leaf_count 35 40 45 50 55 --dry_weight 2.0 2.2 2.5 2.7 3.0
+  603  docker exec -it plant_container bash
+  604  docker exec -it plant_container
+  605  Error response from daemon: container cdf2e5455a9acb31ef8961d15812fcbed822c77f26b07534b5b118da1d40a785 is not running
+  606  docker ps -a | grep plant_container
+  607  docker start plant_container
+  608  docker exec -it plant_container bash
+  609  docker run --name plant_container -it plant_plotter --plant "Rose" --height 50 55 60 65 70 --leaf_count 35 40 45 50 55 --dry_weight 2.0 2.2 2.5 2.7 3.0
+  610  docker rm plant_container
+  611  docker run --name plant_container -it plant_plotter --plant "Rose" --height 50 55 60 65 70 --leaf_count 35 40 45 50 55 --dry_weight 2.0 2.2 2.5 2.7 3.0
+  612  docker exec -it plant_container bash
+  613  docker build -t plant_plotter -f Q5/Dockerfile .
+  614  docker run --name plant_container -it plant_plotter --plant "Rose" --height 50 55 60 65 70 --leaf_count 35 40 45 50 55 --dry_weight 2.0 2.2 2.5 2.7 3.0
+  615  docker build -t plant_plotter1 -f Q5/Dockerfile .
+  616  docker run --name plant_container -it plant_plotter1 --plant "Rose" --height 50 55 60 65 70 --leaf_count 35 40 45 50 55 --dry_weight 2.0 2.2 2.5 2.7 3.0
+  617  docker ps -a | grep plant_container
+  618  docker start plant_container
+  619  docker exec -it plant_container bash
+  620  docker run --name plant_container -it plant_plotter1 --plant "Rose" --height 50 55 60 65 70 --leaf_count 35 40 45 50 55 --dry_weight 2.0 2.2 2.5 2.7 3.0
+  621  cd ~/LINUX_COURSE_PROJECT/Work
+  622  docker build -t plant_plotter -f Q5/Dockerfile .
+  623  docker run --name plant_container -it plant_plotter --plant "Rose" --height 50 55 60 65 70 --leaf_count 35 40 45 50 55 --dry_weight 2.0 2.2 2.5 2.7 3.0
+  624  docker rm plant_container
+  625  docker stop plant_container
+  626  docker rm plant_container
+  627  cd ~/LINUX_COURSE_PROJECT/Work
+  628  docker build -t plant_plotter -f Q5/Dockerfile .
+  629  docker run --name plant_container_new -it plant_plotter --plant "Rose" --height 50 55 60 65 70 --leaf_count 35 40 45 50 55 --dry_weight 2.0 2.2 2.5 2.7 3.0
+  630  docker exec -it plant_container_new bash
+  631  docker ps -a
+  632  ls -lh /LINUX_COURSE_PROJECT/Work/
+  633  find / -name "*.png" 2>/dev/null
+  634  ls -lh ~/WSL_HOST
+  635  mkdir -p ~/WSL_HOST
+  636  docker cp plant_container_new:/LINUX_COURSE_PROJECT/Work/Rose_scatter.png ~/WSL_HOST/
+  637  docker cp plant_container_new:/LINUX_COURSE_PROJECT/Work/Rose_histogram.png ~/WSL_HOST/
+  638  docker cp plant_container_new:/LINUX_COURSE_PROJECT/Work/Rose_line_plot.png ~/WSL_HOST/
+  639  ls -lh ~/WSL_HOST/
+  640  explorer.exe .
+  641  ls -lh ~/WSL_HOST/
+  642  cd Q5
+  643  history > docker_history.log
