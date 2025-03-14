@@ -1,0 +1,12 @@
+
+  601  git checkout -b BR_CSV
+  602  cd Work/Q2
+  603  pwd
+  604  cd ..
+  605  cd Q3
+  606  chmod +x menue.sh
+  607  chmod +x menu.sh
+  608  menu.sh
+  609  ./menu.sh
+  610  touch history.txt
+  611  history > history.txt
