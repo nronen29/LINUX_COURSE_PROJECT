@@ -1,0 +1,15 @@
+771  git branch BR_Q4b
+  772  git checkout BR_Q4b
+  773  cp flowers.sh ../Q4b/flowers_parm.sh
+  774  cd ../Q4b
+  775  chmode +x flowers_parm.sh 
+  776  chmod +x flowers_parm.sh 
+  777  ./flowers_parm.sh --path=/home/neta/LINUX_COURSE_PROJECT/Work/Q3/first.csv --lines=1,2
+  778  ./flowers_parm.sh --p=/home/neta/LINUX_COURSE_PROJECT/Work/Q3/first.csv --lines=1,2
+  779  clear
+  780  ./flowers_parm.sh --p=/home/neta/LINUX_COURSE_PROJECT/Work/Q3/first.csv --lines=1,2
+  781  clear
+  782  ./flowers_parm.sh --p=/home/neta/LINUX_COURSE_PROJECT/Work/Q3/first.csv --lines=1,2
+  783  clear
+  784  ./flowers_parm.sh --path=/home/neta/LINUX_COURSE_PROJECT/Work/Q3/first.csv --lines=1
+  785  history >> history.txt 

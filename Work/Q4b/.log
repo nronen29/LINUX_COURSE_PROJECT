@@ -1,0 +1,10 @@
+
+Plant: "Rose"
+Height data: [50.0, 55.0, 60.0, 65.0, 70.0] cm
+Leaf count data: [35, 40, 45, 50, 55]
+Dry weight data: [2.0, 2.2, 2.5, 2.7, 3.0] grams
+
+Plots for "Rose" have been generated:
+1. Scatter plot: "Rose"_scatter.png
+2. Histogram: "Rose"_histogram.png
+3. Line plot: "Rose"_line_plot.png
