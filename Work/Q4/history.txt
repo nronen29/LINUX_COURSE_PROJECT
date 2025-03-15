@@ -1,0 +1,88 @@
+
+  685  git branch BR_Q4
+  686  git checkout BR_Q4
+  687  cd Q4
+  688  cd work/Q4
+  689  cd Work/Q4
+  690  python3 -m venv Q4_venv
+  691  sudo apt update
+  692  wich python
+  693  which python 
+  694  python --version
+  695  python3 --version
+  696  sudo apt install python3.10-venv
+  697  python3 -m venv Q4_venv
+  698  source Q4_venv/bin/activate
+  699  deactivate
+  700  chmod +x flowes.sh
+  701  chmod +x flowers.sh
+  702  ls
+  703  la
+  704  ls -la
+  705  source /path/to/Q4_venv/bin/activate
+  706  chmod +x flowers.sh
+  707  ls -la
+  708  cd Q4_venv
+  709  cd ..
+  710  chmod +x flowers.sh
+  711  ./flowers.sh /home/neta/LINUX_COURSE_PROJECT/Work/Q3/first.csv
+  712  ./flowers.sh 
+  713  ./flowers.sh /home/neta/LINUX_COURSE_PROJECT/Work/Q3/first.csv
+  714  chmod +x flowers.sh
+  715  ./flowers.sh /home/neta/LINUX_COURSE_PROJECT/Work/Q3/first.csv
+  716  chmod +x flowers.sh
+  717  ./flowers.sh /home/neta/LINUX_COURSE_PROJECT/Work/Q3/first.csv
+  718  chmod +x flowers.sh
+  719  ./flowers.sh /home/neta/LINUX_COURSE_PROJECT/Work/Q3/first.csv
+  720  clear
+  721  cd ..
+  722  cd Q2
+  723  python3 plant.py 
+  724  python3 requirements.py 
+  725  python3 requirements.py --plant "Rose" --hight 20 20 54 8 4 --leaf_count 25 4 88 5 2 --dry_weight 2.1 5 2 3.1 5
+  726  python3 requirements.py --plant "Rose" --height 20 20 54 8 4 --leaf_count 25 4 88 5 2 --dry_weight 2.1 5 2 3.1 5
+  727  clear
+  728  cd ..
+  729  cd Q3
+  730  ./menu.sh 
+  731  clear
+  732  ./menu.sh 
+  733  cd ..
+  734  cd Q3
+  735  cd ../Q4
+  736  ./flowers.sh 
+  737  ./flowers.sh /home/neta/LINUX_COURSE_PROJECT/Work/Q4/second.csv
+  738  cd ..
+  739  cd BACKUPS/
+  740  tar -xf BACKUP_2025-03-14-17.tar
+  741  clear
+  742  cd ../Work/Q4
+  743  ./flowers.sh /home/neta/LINUX_COURSE_PROJECT/Work/Q4/second.csv
+  744  clear
+  745  ./flowers.sh /home/neta/LINUX_COURSE_PROJECT/Work/Q3/first.csv
+  746  ./flowers.sh 
+  747  git add .
+  748  git commit -m "update Q4"
+  749  git push origin BR_Q4
+  750  git remote -v
+  751  git checkout master
+  752  git merge BR_Q4
+  753  git push origin master
+  754  git pull --rebase origin master
+  755  git add .
+  756  git commit -m "Save work before rebase"
+  757  git pull --rebase origin master
+  758  git add .
+  759  git commit -m "Fix deleted and modified files before rebase"
+  760  git add .
+  761  git commit -m "Fix deleted and modified files before rebase"
+  762  git pull --rebase origin master
+  763  git add -A
+  764  git commit -m "Fix deleted and modified files before rebase"
+  765  git pull --rebase origin master
+  766  git push origin master
+  767  ./flowers.sh /home/neta/LINUX_COURSE_PROJECT/Work/Q3/first.csv
+  768  git add .
+  769  git commit -m "Fix deleted"
+  770  git push origin master
+  
